@@ -7,7 +7,7 @@ const db = require("../models");
 
 // module.exports = function (app) {
 
-    //commnet in to prepopulate database
+    //comment in to prepopulate database
     // db.Workout.find({}).then(function (res) {
     //     console.log("Checking if db is populated");
     //     if (res.length === 0) {
