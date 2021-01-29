@@ -1,19 +1,21 @@
 {
-  "name": "fitness-tracker",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kyleward92/Fitness-Tracker.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kyleward92/Fitness-Tracker/issues"
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13",
+    "morgan": "^1.9.1"
   },
-  "homepage": "https://github.com/kyleward92/Fitness-Tracker#readme"
+  "devDependencies": {},
+  "description": ""
 }
